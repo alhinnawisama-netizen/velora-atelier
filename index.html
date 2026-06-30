@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VELORA ATELIER | Artisan Bakery</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:#fcfbfa;color:#111;line-height:1.7}
+body:before{content:"";position:fixed;inset:0;opacity:.02;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+h1,h2,h3{font-family:Didot,"Times New Roman",serif;font-weight:400;text-transform:uppercase;letter-spacing:.18em}
+header{position:fixed;top:0;width:100%;background:rgba(252,251,250,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(0,0,0,.05)}
+.nav{max-width:1100px;margin:auto;padding:28px 40px;display:flex;justify-content:space-between}
+.nav a{text-decoration:none;color:#111;font-size:12px;letter-spacing:.2em;margin-left:28px}
+.logo{font-size:16px;letter-spacing:.28em}
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(rgba(252,251,250,.2),rgba(252,251,250,.2)),url("https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1800&q=80") center/cover}
+.hero h1{font-size:48px}
+.hero p{margin-top:18px;letter-spacing:.35em;text-transform:uppercase;color:#555}
+.section{max-width:1100px;margin:auto;padding:120px 40px}
+.section h2{text-align:center;margin-bottom:70px;font-size:28px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:30px 90px}
+.item{padding:18px 0;border-bottom:1px solid rgba(0,0,0,.08)}
+.row{display:flex;justify-content:space-between}
+.price{font-family:Didot,serif}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.aboutimg{height:520px;background:url("https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80") center/cover}
+.about p{font-family:Didot,"Times New Roman",serif;font-size:24px}
+.contact{background:#f7f5f0;text-align:center;padding:100px 40px}
+footer{text-align:center;padding:40px;color:#888;font-size:12px}
+@media(max-width:900px){.grid,.about{grid-template-columns:1fr}.hero h1{font-size:34px}.nav{padding:22px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo">VELORA ATELIER</div><div><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></header>
+<section class="hero"><h1>VELORA ATELIER</h1><p>Baked Daily</p></section>
+
+<section id="menu" class="section">
+<h2>Signature Bakes</h2>
+<div class="grid">
+<div class="item"><div class="row"><strong>Garlic Herb Focaccia</strong><span class="price">$7 / $22</span></div></div>
+<div class="item"><div class="row"><strong>Rosemary Sea Salt Focaccia</strong><span class="price">$7 / $22</span></div></div>
+<div class="item"><div class="row"><strong>Cheddar Herb Focaccia</strong><span class="price">$8 / $24</span></div></div>
+<div class="item"><div class="row"><strong>Hot Honey Chili Focaccia</strong><span class="price">$8 / $24</span></div></div>
+<div class="item"><div class="row"><strong>Parmesan Black Pepper</strong><span class="price">$8 / $24</span></div></div>
+<div class="item"><div class="row"><strong>Roasted Garlic & Asiago</strong><span class="price">$9 / $26</span></div></div>
+<div class="item"><div class="row"><strong>Chocolate Croissant</strong><span class="price">$5</span></div></div>
+<div class="item"><div class="row"><strong>Brown Butter Cookie</strong><span class="price">$4</span></div></div>
+</div>
+</section>
+
+<section id="about" class="section about">
+<div class="aboutimg"></div>
+<div><h2>Our Philosophy</h2><p>Every loaf is mixed, proofed and baked in small batches using carefully selected ingredients, traditional methods and an editorial eye for detail. Simplicity, craftsmanship and warmth define every bake.</p></div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Visit Velora Atelier</h2>
+<p>Wednesday – Sunday</p>
+<p>8:00 AM – 3:00 PM</p><br>
+<p>Email: hello@veloraatelier.com</p>
+<p>Instagram: @veloraatelier</p>
+</section>
+
+<footer>VELORA ATELIER • Artisan Bakery • Freshly Baked Daily</footer>
+</body>
+</html>
